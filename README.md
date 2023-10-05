@@ -6,12 +6,12 @@ This repository is set up to automate Python code linting using [flake8](https:/
 
 - [Workflow](#workflow)
 - [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
 - [Usage](#usage)
-- [Running the Linter](#running-the-linter)
-- [Running the Test](#running-the-test)
-- [Workflow Usage](#workflow-lintyml-usage)
+    - [Running the Linter](#running-the-linter)
+    - [Running the Test](#running-the-test)
+    - [Workflow Usage](#workflow-usage)
 - [Contributing](#contributing)
 
 ## Workflow
