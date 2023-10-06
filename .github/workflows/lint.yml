@@ -40,4 +40,5 @@ jobs:
           git add .
           git commit -m "Auto-format code with black"
           git push origin temp-branch
+          git branch -a
           git branch -d temp-branch
