@@ -4,7 +4,6 @@ def check_number(str):
             return False
     return True
 
-
 str = "Akiff"
 if check_number(str):
     print(str + " is an integer ")
