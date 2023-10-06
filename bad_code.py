@@ -3,4 +3,5 @@ total = 0
 
 for i in numbers:
     total = total + i
-print("The sum of the numbers is: " + str(total))
+
+print("The sum of the numbers is: " + str( total ))
