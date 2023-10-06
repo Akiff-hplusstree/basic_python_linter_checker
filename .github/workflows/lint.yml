@@ -39,4 +39,4 @@ jobs:
           git checkout -b temp-branch # create a temporary branch on which you would push the changes
           git add .
           git commit -m "Auto-format code with black"
-          git push origin temp-branch # push the changes on the branch
+          git push https://${{ secrets.GH_PAT }}@github.com/Akiff-hplusstree/basic_python_linter_checker.git temp-branch # push the changes on the branch
