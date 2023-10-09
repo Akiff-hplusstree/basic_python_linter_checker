@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --global user.name ${{ secrets.USERNAME }}
           git config --global user.email ${{ secrets.EMAIL }}
-          git fetch --no-tags origin main:temp-branch
+          git fetch --no-tags origin temp-branch:lint_check
           git add .
           git commit -m "Auto-format code with black"
           git push origin temp-branch
