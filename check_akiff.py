@@ -1,12 +1,7 @@
 def add_numbers(x, y):
-<<<<<<< HEAD
     result = x + y
     return result
 
-=======
-    result = x + y
-    return result
->>>>>>> lint_check
 
 def subtract_numbers(x, y):
     result = x - y
